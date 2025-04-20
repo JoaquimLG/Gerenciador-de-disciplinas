@@ -1,0 +1,3 @@
+-----LISTA DE DISCIPLINAS-----
+DISCIPLINA, NOTA 1, NOTA 2, FREQUÊNCIA, STATUS
+Ae, 10.0, 10.0, 0.0%, Reprovado por falta
