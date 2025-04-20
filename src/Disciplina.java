@@ -53,7 +53,8 @@ public class Disciplina {
             return "";
         }
 
-        //SEPARAR O ACENTO DO CARACTER E RETIRAR O ACENTO DA STRING, ESSA CLASSE NORMALIZE
+        //AQUI SERVE PARA SEPARAR O ACENTO DO CARACTERE E RETIRAR O ACENTO DA STRING
+        //A CLASSE NORMALIZER É RESPONSÁVEL POR ISSO
         disciplina = Normalizer.normalize(disciplina, Normalizer.Form.NFD);
         disciplina = disciplina.replaceAll("\\p{InCombiningDiacriticalMarks}", "");
 

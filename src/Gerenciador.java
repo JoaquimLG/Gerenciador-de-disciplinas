@@ -33,7 +33,7 @@ public class Gerenciador {
     //SE A OPÇÃO FOR REMOVER ELE CHAMA removerDisciplinas
     public void consultarDisciplina(String buscaFormatada, String opcao) {
         //BOOLEAN PARA VERIFICAR SE ENCONTROU E VÁRIAVEL PARA OBTER A POSIÇÃO DA DISCIPLINA
-        //COMEÇA POR -1 POIS A CADA
+        //COMEÇA POR -1 POIS A CADA INTERAÇÃO SOMA 1 NA VÁRIAVEL, OBTENDO A POSIÇÃO DA DISCIPLINA
         boolean encontrou = false;
         int posicaoDisciplina = -1;
 
