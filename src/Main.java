@@ -54,7 +54,7 @@ public class Main {
                 case "5":
                     JOptionPane.showMessageDialog(null,"Sair\n");
                     gerenciador.salvarArquivos();
-                    JOptionPane.showMessageDialog(null,"Encerrando programa e salvando dados...");
+                    JOptionPane.showMessageDialog(null,"Encerrando programa...");
                     return;
 
                 default:
